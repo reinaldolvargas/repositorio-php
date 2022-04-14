@@ -15,6 +15,8 @@
         echo $n;  
         
          echo $no. "  tem  ". $n. " anos  ";
+         echo 'O codigo e escrito dessa forma $no." tem "." $n. " anos "';
+         
          echo "$na tem $n anos";
 
     ?>
