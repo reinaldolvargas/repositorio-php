@@ -1,5 +1,7 @@
 {
    "editor.renderWhitespace": "selection",
    "files.autoSave": "afterDelay",
-   "editor.wordWrap": "bounded"
+   "editor.wordWrap": "bounded",
+   "editor.formatOnType": true,
+   "editor.inlineSuggest.enabled": false
 }
