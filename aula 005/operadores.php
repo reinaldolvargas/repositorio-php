@@ -10,13 +10,14 @@
 <body>
 <?php
 echo"<h2>Operador de soma</h2>";
-$n = 3;
-$n1 = 5;
+$n = $_GET["a"];
+$n1 = $_GET["b"];
 $s = $n + $n1;
 $menos = $n - $n1;
 $mult = $n * $n1;
 $div = $n / $n1;
 $mod = $n % $n1;
+$media = ($n + $n1) / 2;
 echo" Asoma entre 3 e 5 é $s <br>
 O codigo e escrito desta forma <br>";
 echo'$n = 3; <br>
@@ -43,8 +44,26 @@ ex:.&#36menos = &#36n - &#36n1, onde usamos a variavel &#36menos para mostrar o 
 > No paragrafode multiplicação foi usada a concatenação <mark>'.'</mark>
 é preciso iniciar a linha com uma 'echo' a operação é lançada diretamente na linha entre parentas
 basta que tenha as variaveis dos opperadores declaradas <br>
-ex:.'echo&quot A multiplicação vale &quot. (&#36n * &#36n1);'</p>";
-
+ex:.'echo&quot A multiplicação vale &quot. (&#36n * &#36n1);'</p> <br>";
+echo"<h2>Ordem de precedencia</h2><br>
+<p>-> parenteses '()' <br>
+-> multiplicação '*' <br>
+-> divisão '/' <br>
+-> modulo '%'
+-> adição e subtração '+ -'";
+echo "a media e $media <br>";
+echo "Descrição da linha de codigo -> &#36media = (&#36n + &#36n1) / 2
+<br>na operação acima a soma e feita primeiro proque 'n e n1 estão dentro de parenteses
+pela ordem de precedencia toda operação que estiver entre parenteses e executada primeiro
+ independente do tipo de Operador ";
+ echo"<h2>Metodo de entrada de valores</h2><br>
+ <h3>Entrada de valores pela barra de endereço</h3>";
+ 
+ echo"valores de entrada $n e $n1";
+ echo"<p>Para permitir a entrada de valores pela barra de endereço e preciso criar uma ligação com um parametro acoplado a variavel
+  e adicionar uma chamada na na barra de endereço<strong>'?parametro=valor'</strong> </p>";
+echo'ligação-> $_GET["a"]';
+echo"<br>ex:.http://127.0.0.1/repositorio-php/aula%20005/operadores.php<mark>?a=8&b=5</mark> ";
 ?>
 </body>
 </html>
