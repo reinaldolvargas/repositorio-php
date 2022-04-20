@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>comandos html php</title>
+</head>
+<body>
+    <h1>Usando comandos com integração html php</h1>
+    <form method="get" action="ex002.php">
+        nome:<input type="text" name="nome"/><br>
+        ano de nascimento: <input type="number" name="ano"><br>
+        <fieldset><legend>sexo</legend>
+        <input type="radio" name="sexo" id="masc" value="homem">
+        <label for="masc">masculono</label>
+        <input type="radio" nane="sexo" id="fem" value="mulher" checked>
+        <label for="fem">feminino</label>
+        
+    </fieldset>
+    <input type="submit" value="enviar">
+    </form>
+    <h2>codigo</h2>
+    <p>&lt;form method="get" action="ex002.php">
+        nome:&lt;input type="text" name="nome"/><br>
+        ano de nascimento: &lt;input type="number" name="ano"><br>
+        &lt;fieldset>&lt;legend>sexo&lt;/legend>
+        &lt;input type="radio" name="sexo" id="masc">
+        &lt;label for="masc">masculono&lt;/label>
+        &lt;input type="radio" nane="sexo" id="fem">
+        &lt;label for="fem">feminino&lt;/label>
+        
+    &lt;/fieldset>
+    &lt;input type="submit" value="enviar">
+    &lt;/form></p>
+    <p>O 'fieldset' com 'legend' cria uma broda e uma legenda para os campos de seleção 'masculino e feminino'</p>
+</body>
+</html>
