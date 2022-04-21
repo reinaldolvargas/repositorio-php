@@ -10,11 +10,11 @@
 <a href="ex002.html">voltar</a><br>
 <body>
 <?php
-$nome = isset( $_GET["nome"])?$_GET["nome"]:["não informado"];
-$ano = isset($_GET["ano"])?$_GET["ano"]:["não informado"] ;
-$sexo = $_GET["sexo"];
-$idade = date("Y") - $ano;
-echo"$nome ,é: $sexo, tem $idade anos";
+$nome = isset( $_GET["nome"])?$_GET["nome"]:"[não informado]";
+$ano = isset($_GET["ano"])?$_GET["ano"]:"[0000]";
+$sexo = isset($_GET["sexo"])?$_GET["sexo"]:"[trans]";
+$idade = date("Y")- $ano;
+echo" $nome é $sexo tem $idade anos ";
 ?>
 </body>
 </html>
