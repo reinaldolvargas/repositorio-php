@@ -24,5 +24,18 @@ $cor = isset($_GET["cor"])?$_GET["cor"]:"#000067";
 
 echo "<span class='texto'>$txt</span>";
 ?>
+<h2>Orientação sobre a estrutura</h2>
+<p>As variaveis foram montadas no inicio  cabeçario dentro de &lt;head><br>
+Isso permite que seja criado comandos de estilo em css, caso contrario o css não funciona <br>
+</p>
+<p>
+ex:.&lt;style>Configuração de estilo para que as configurações de texto funcionem.
+   span.texto{
+      font-size:&lt;?php echo $tam;?>;
+      color:&lt;?php echo $cor;?>;
+   }
+   &lt;/style>
+</p>
 </body>
+
 </html>

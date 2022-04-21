@@ -5,6 +5,9 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>posição de script</title>
+   <style>
+   div{background-color: rgba(148, 144, 144, 0.651);}
+   </style>
 </head>
 <body>
    <h1>Posicionamento de script e integração com css</h1>
@@ -22,8 +25,27 @@
    <label for="icor"></label>
    <input type="color" name="cor" id="icor">
    <input type="submit" value="gerar">
-
+ </form>
       
-   </form>
+  <div>
+     <h2>Orientação sobre a estrutura</h2>
+     <p>Criando o 'form'<br>
+     &lt;form method="get" action="ex003.php"> Abre form com metodo de entrada e chamada para o php.<br>
+      &lt;label for="itxt">texto:&lt;/label> cria interação entre o titulo e a caixa de texto correspondente<br>
+      &lt;input type="text" name="t" id="itxt"><br>
+      &lt;label for="itam">tamanho&lt;/label> <br>
+      &lt;select name="tam" id="itam"> Cria uma lista de itens pre determinado<br>
+         &lt;option value="8pt">8&lt;/option> <br>
+         &lt;option value="10pt">10&lt;/option> <br>
+         &lt;option value="14pt">14&lt;/option> <br>
+         &lt;option value="20pt">20&lt;/option> <br>
+         &lt;option value="40pt">40&lt;/option> <br>
+      &lt;/select> <br>
+      &lt;label for="icor">&lt;/label> <br>
+      &lt;input type="color" name="cor" id="icor"> comando para criar uma caixa de cor<br>
+      &lt;input type="submit" value="gerar"> Cria um botão de comando para a execução da tarefa.<br>
+      &lt;/form>
+     </p>
+  </div>
 </body>
 </html>
