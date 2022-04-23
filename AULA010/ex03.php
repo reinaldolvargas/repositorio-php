@@ -9,6 +9,8 @@
 <h1></h1>
 <body>
 <?php
+$e = isset($_GET["$est"])?$_GET["$est"]:"digite o estado";
+
 ?>
 </body>
 </html>
