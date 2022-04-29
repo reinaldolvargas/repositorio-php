@@ -7,7 +7,7 @@
    <title>  função</title>
 </head>
 <body>
-<h1>FUNÇÃO soma</h1>
+<h1>FUNÇÃO soma sem retorno</h1>
 <h2>Função soma sem retorno de valor</h2>
 <?php
 function soma($a,$b){
@@ -21,8 +21,6 @@ $y = 4;
 soma($x, $y);
 soma($x,-$y);
 soma(-$x,$y);
-
-
 ?>
 </body>
 </html>
