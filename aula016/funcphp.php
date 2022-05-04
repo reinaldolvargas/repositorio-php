@@ -80,5 +80,25 @@ echo"a letra 67 é varletra";</p>
 varletra = "c";<br>
 varcod = ord(varletra);
  </P>
+ <h3>STRTOLOWER</h3>
+ <P>serve para formatar letras maiusculas em minusculas<br>
+variavelnome="NOME";<br>
+variavelnome2= strtolower(varnome);<br>
+echo"seu nome e 'nome'";</P>
+<h3>STRTOUPPER</h3>
+<P>FORMATA LETRAS MINUSCULAS EM MAIUSCOLAS</P>
+<H3>UCFIRST()</H3>
+<p>fORMATA A PRIMEIRA LETRA DO PARAGRAFO EM MAIUSCULA</p>
+<H3>UCWORDS()</H3>
+<p>formata a primeira letra de cada palavra em maiuscolas</p>
+<h3>STRREV()  </h3>
+<P>iNVERTE O SENTIDO DA PALAVRA</P>
+<h3>STRPOS()</h3>
+<P>VAR frase = "estoun aprendendo PHP";<br>
+   $pos = ($frase,"PHP");<br>
+   Mostra a posição da paldvra
+
+</P>
+
 </body>
 </html>

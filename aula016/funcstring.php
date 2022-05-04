@@ -15,4 +15,19 @@ function wordwrap(){
   $r = wordwrap($t, 20, "<br>\N"); 
   echo $r; 
 }
+function TO_LOWER(){
+  $nome = "rei";
+  $nome2 = strtolower($nome);
+  echo"seu nome e $nome2";
+}
+function TO_upper(){
+  $nome = "rei";
+  $nome2 = strtolower($nome);
+  echo"seu nome e $nome2";
+}
+function ucfirst(){
+  $nome = "rei";
+  $nome2 = strtolower($nome);
+  echo"seu nome e $nome2";
+}
 ?>
